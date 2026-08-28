@@ -237,33 +237,13 @@ textarea {
 	border-radius: 10px !important
 }
 
-/* BIGGEST HEADER ("___"'s DEN) */
-
-h1 {
-	color: #fff;
-	font-size: 50px;
-	text-align: center;
-    text-shadow: 0 0 5px #ffd597;
-    font-weight: bold;
-    font-family: 'Cinzel';
-    margin-top: 50px;
-}
-
-
-/* MEDIUM HEADER */
-
-h2 {
-	color: #fff;
-    font-size: 12px!important;
-	text-align: center
-}
-
-
-/* SMALL HEADER */
-
-h3 {
-	color: #ffffff8a !important;
-	font-size: 10px !important
+/* Headers */
+h1,
+h2,
+h3,
+.sidebar h3 {
+    color: var(--fc1);
+    font-family: var(--headFont);
 }
 
 /* RIGHT SIDE PANEL HEADER */
