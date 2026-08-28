@@ -735,16 +735,6 @@ table#player img {
 	opacity: 1
 }
 
-
-/* CIRCULAR LION AND USER AVATAR */
-
-div#lion_image {
-	border-radius: 10px !important;
-	overflow: hidden;
-	margin-top: 15px; 
-	margin-left: 12px; 
-}
-
 table#player img {
 	border-radius: 20px !important;
 	overflow: hidden;
