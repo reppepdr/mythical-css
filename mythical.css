@@ -745,7 +745,7 @@ table#player img {
 }
 
 #lion_image:after {
-    content:url("https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/701160/4b2e1b159a5daf94e7760f2d71f0a9d4f20a519c.png");
+    content:url("");
     position:absolute;
     width: 200% !important;
 	margin-left: -848px!important;
