@@ -737,6 +737,7 @@ table#player img {
 
 table#player img { 
     border-radius: 20px !important; 
+    overflow: hidden !important;
     padding: 0 !important;
     margin: 0 !important;
 }
