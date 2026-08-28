@@ -764,16 +764,6 @@ table#player img {
 	top: 13px!important;
 }
 
-
-#player > tbody > tr.right > td:nth-child(2)::after {
-    content:url('https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1940340/9c17f7381c33a1ac99007100f7583e05267aefea.png');
-    position:absolute;
-    top:-20px;
-    right: 10px;
-    scale:.82;
-}
-
-
 /* CAVE / MOUND IMAGES */
 
 div.cave-grid {
