@@ -735,7 +735,11 @@ table#player img {
 	opacity: 1
 }
 
-****----*****
+table#player img { 
+    border-radius: 20px !important; 
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
 /* lion image */
 #lion_image>div {
