@@ -124,7 +124,7 @@ html::after {
 /* LIODEN LOGO REPLACER */
 
 img[src$="logo-full-2.png"] {
-    content: url('https://www.talos-rtd.com/wp-content/uploads/2022/10/Talos-%CE%9A%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B1%CF%82.png');
+    content: url('<a href="https://freeimage.host/"><img src="https://iili.io/Cp2CG7R.png" alt="Cp2CG7R.png" border="0"></a>');
     filter: drop-shadow(0px 0px 2px #ffd597);
     width:95px;
     margin-left: 50px!important;
