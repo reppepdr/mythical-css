@@ -736,9 +736,11 @@ table#player img {
 }
 
 table#player img { 
-    overflow: hidden !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    border-radius: unset !important; 
+    overflow: unset !important;
+    scale: unset !important;
+    margin: unset !important;
+    padding: unset !important;
 }
 
 /* lion image */
