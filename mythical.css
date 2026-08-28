@@ -735,14 +735,7 @@ table#player img {
 	opacity: 1
 }
 
-table#player img {
-	border-radius: 20px !important;
-	overflow: hidden;
-    scale:1.;
-    margin-top: 10px;
-    padding-right: 40px!important;
-    padding-left: 20px!important;
-}
+****----*****
 
 /* lion image */
 #lion_image>div {
