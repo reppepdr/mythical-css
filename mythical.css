@@ -744,7 +744,11 @@ table#player img {
     padding-left: 20px!important;
 }
 
-**---**
+/* lion image */
+#lion_image>div {
+    border-radius: 10px;
+    border: 1px solid var(--borderColor);
+}
 
 /* CAVE / MOUND IMAGES */
 
