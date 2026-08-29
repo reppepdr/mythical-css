@@ -404,7 +404,7 @@ Please do not remove credit
  
 .member-online {
     * background: rgba(207,207,207,0);
-    * content:url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png')!important;
+    * content:url('')!important;
      * width:100px!important;
      * height:100px; 
  
@@ -414,7 +414,7 @@ Please do not remove credit
  
 .member-offline {
     * background: rgba(207,207,207,0); 
-    * content:url('https://i.ibb.co/4Z6T1jLh/remains-DAY.png')!important; 
+    * content:url('')!important; 
      * width:100px!important; 
      * height:100px; 
  
