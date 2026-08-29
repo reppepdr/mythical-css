@@ -400,16 +400,24 @@ Codes may be edited, used in commissions or for personal use
 Please do not remove credit
 */
  
-/* USE THESE TO CHANGE TO AN IMAGE */
- 
 /* MEMBER ONLINE */
+ 
 .member-online {
-    content: url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png') !important;
+    background: rgba(207,207,207,0);
+    content:url('LINK')!important;
+     width:20px!important;
+     height:20px;
+ 
 }
  
 /* MEMBER OFFLINE */
+ 
 .member-offline {
-    content: url('https://i.ibb.co/4Z6T1jLh/remains-DAY.png') !important;
+    background: rgba(207,207,207,0);
+    content:url('LINK')!important;
+     width:20px!important;
+     height:20px;
+ 
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
