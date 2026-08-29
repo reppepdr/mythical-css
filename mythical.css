@@ -400,40 +400,16 @@ Codes may be edited, used in commissions or for personal use
 Please do not remove credit
 */
  
-/* USE THESE TO CHANGE COLOR */
- 
-/* MEMBER ONLINE */
- 
-.member-online {
-    background: #47c100;
- 
-}
- 
-/* MEMBER OFFLINE */
- 
-.member-offline {
-    background: #000000;
- 
-}
- 
 /* USE THESE TO CHANGE TO AN IMAGE */
  
 /* MEMBER ONLINE */
 .member-online {
     content: url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png') !important;
-    width: unset !important;
-    height: unset !important;
-    padding: 0 !important;
-    margin: 0 !important;
 }
  
 /* MEMBER OFFLINE */
 .member-offline {
     content: url('https://i.ibb.co/4Z6T1jLh/remains-DAY.png') !important;
-    width: unset !important;
-    height: unset !important;
-    padding: 0 !important;
-    margin: 0 !important;
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
