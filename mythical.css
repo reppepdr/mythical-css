@@ -419,23 +419,21 @@ Please do not remove credit
 /* USE THESE TO CHANGE TO AN IMAGE */
  
 /* MEMBER ONLINE */
- 
 .member-online {
-    background: rgba(207,207,207,0);
-    content:url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png')!important;
-     width:100px!important;
-     height:100px;
- 
+    content: url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png') !important;
+    width: unset !important;
+    height: unset !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
  
 /* MEMBER OFFLINE */
- 
 .member-offline {
-    background: rgba(207,207,207,0);
-    content:url('img src="https://i.ibb.co/4Z6T1jLh/remains-DAY.png')!important;
-     width:100px!important;
-     height:100px;
- 
+    content: url('https://i.ibb.co/4Z6T1jLh/remains-DAY.png') !important;
+    width: unset !important;
+    height: unset !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
