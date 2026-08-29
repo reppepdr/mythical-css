@@ -403,20 +403,20 @@ Please do not remove credit
 /* MEMBER ONLINE */
  
 .member-online {
-    background: rgba(207,207,207,0);
-    content:url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png')!important;
-     width:100px!important;
-     height:100px;
+    * background: rgba(207,207,207,0);
+    * content:url('https://i.ibb.co/gLkGGv0M/weakantelopeday.png')!important;
+     * width:100px!important;
+     * height:100px; 
  
 }
  
 /* MEMBER OFFLINE */
  
 .member-offline {
-    * background: rgba(207,207,207,0); *
-    * content:url('https://i.ibb.co/4Z6T1jLh/remains-DAY.png')!important; *
-     * width:100px!important; *
-     * height:100px; *
+    * background: rgba(207,207,207,0); 
+    * content:url('https://i.ibb.co/4Z6T1jLh/remains-DAY.png')!important; 
+     * width:100px!important; 
+     * height:100px; 
  
 }
 
