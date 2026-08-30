@@ -881,8 +881,8 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
     content: url('https://i.ibb.co/BHG99zxS/rottingcarrionday.png') !important;
     width: 60px !important;
     height: 60px !important; 
-    top: -0px !important;
-    left: 0px !important;
+    top: -30px !important;
+    left: -30px !important;
 }
 	
     .member-online::after {
