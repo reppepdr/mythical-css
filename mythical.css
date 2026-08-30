@@ -126,9 +126,9 @@ html::after {
 img[src$="logo-full-2.png"] {
     content: url('https://i.ibb.co/Fq4qhM44/eyeapp-intensegold.png');
     filter: drop-shadow(0px 0px 2px #ffd597);
-    width:95px;
+    width:90px;
     margin-left: 50px!important;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-right: 0 !important;
     transition: transform 0.3s ease; 
 }
