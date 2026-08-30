@@ -398,28 +398,52 @@ Please do not remove credit
  
 /* MEMBER ONLINE */
 
-.member-online {
-    position: absolute !important;
-    background: none !important;
-    background-color: transparent !important;
-    content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
-    width: 130px !important;
-    height: 110px !important; 
-    top: -20px !important;
-    left: 70px !important;
+@media (min-width: 769px) {
+    .member-online {
+        position: absolute !important;
+        background: none !important;
+        background-color: transparent !important;
+        content: url('https://ibb.co') !important;
+        width: 130px !important;
+        height: 110px !important; 
+        top: -20px !important;
+        left: 70px !important;
+    }
+
+    .member-offline {
+        position: absolute !important;
+        background: none !important;
+        background-color: transparent !important;
+        content: url('https://ibb.co') !important;
+        width: 130px !important;
+        height: 110px !important; 
+        top: -20px !important;
+        left: 70px !important;
+    }
 }
 
-/* MEMBER OFFLINE */
- 
-.member-offline {
-    position: absolute !important;
-    background: none !important;
-    background-color: transparent !important;
-    content: url('https://i.ibb.co/BHG99zxS/rottingcarrionday.png') !important;
-    width: 130px !important;
-    height: 110px !important; 
-    top: -20px !important;
-    left: 70px !important;
+@media (max-width: 768px) {
+    .member-online {
+        position: absolute !important;
+        background: none !important;
+        background-color: transparent !important;
+        content: url('https://ibb.co') !important;
+        width: 80px !important;
+        height: 68px !important; 
+        top: -10px !important;
+        left: 40px !important;
+    }
+
+    .member-offline {
+        position: absolute !important;
+        background: none !important;
+        background-color: transparent !important;
+        content: url('https://ibb.co') !important;
+        width: 80px !important;
+        height: 68px !important; 
+        top: -10px !important;
+        left: 40px !important;
+    }
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
@@ -873,6 +897,7 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
 			width: 790px;
             }
 }
+
 
 /* ANIMATED FIREFLIES: EDITED FOR LIODEN, BY PLAYER =Austin= #43750 */
 /* ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
