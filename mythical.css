@@ -878,7 +878,7 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
     position: absolute !important;
     background: none !important;
     background-color: transparent !important;
-    content: url('https://i.ibb.co/BHG99zxS/rottingcarrionday.png') !important;
+    content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
     width: 60px !important;
     height: 60px !important; 
     top: -30px !important;
@@ -887,7 +887,7 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
 	
     .member-online::after {
         position: absolute !important;
-        content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
+        content: url('') !important;
         width: 60px !important;
         height: 60px !important;
         transform: translate(5px, -10px) !important; 
