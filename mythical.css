@@ -147,7 +147,7 @@ img[src$="logo-full-2.png"]:hover {
 /* NAVBAR (Den/Crossroads/Etc.) */ 
 .navbar { 
   background: rgba(255, 255, 255, 0); 
-  border-bottom: 3px double #6c4204 !important; 
+  border-bottom: 3px double #a1783b !important; 
   color: #fff; 
   border-radius: 25px; 
 }
