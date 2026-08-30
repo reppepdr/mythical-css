@@ -873,27 +873,18 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
 }
 
 @media (max-width: 768px) {
-    .member-online {
-        position: absolute !important;
-        background: none !important;
-        background-color: transparent !important;
-        content: url('https://ibb.co') !important;
-        width: 80px !important;
-        height: 68px !important; 
-        top: -10px !important;
-        left: 40px !important;
-    }
-
+    .member-online,
     .member-offline {
-        position: absolute !important;
+        position: static !important;
+        content: none !important;
         background: none !important;
         background-color: transparent !important;
-        content: url('https://ibb.co') !important;
-        width: 80px !important;
-        height: 68px !important; 
-        top: -10px !important;
-        left: 40px !important;
+        width: auto !important;
+        height: auto !important;
+        top: auto !important;
+        left: auto !important;
     }
+}
 
 /* ANIMATED FIREFLIES: EDITED FOR LIODEN, BY PLAYER =Austin= #43750 */
 /* ANIMATED BY MARK GOLUS ON CODEPEN: https://codepen.io/mikegolus/pen/Jegvym */
