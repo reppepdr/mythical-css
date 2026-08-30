@@ -695,29 +695,28 @@ a:hover {
 	width: 90%;
 }
 
-/* SCROLL BAR */
+/* SCROLL BAR */ 
+::-webkit-scrollbar { 
+    width: 0px; 
+    background: transparent; 
+} 
 
-/* WIDTH */
+/* BACKGROUND */ 
+::-webkit-scrollbar-track { 
+    background: transparent; 
+} 
 
-::-webkit-scrollbar {
-	width: 10px
+/* "THUMB" */ 
+::-webkit-scrollbar-thumb { 
+    background: transparent; 
+    border-radius: 0px; 
 }
 
-
-/* BACKGROUND */
-
-::-webkit-scrollbar-track {
-	background: #ffffff
+/* FOR FIREFOX */
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
-
-
-/* "THUMB" */
-
-::-webkit-scrollbar-thumb {
-	background: #000000;
-	border-radius: 0px
-}
-
 
 /* LION AND USER AVATAR OPACITY */
 
