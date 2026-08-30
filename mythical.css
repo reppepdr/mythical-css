@@ -398,8 +398,8 @@ Please do not remove credit
  
 /* MEMBER ONLINE */
 
-.member-online {
-    position: absolute !important;
+ .member-online {
+   *  position: absolute !important;
     background: none !important;
     background-color: transparent !important;
     content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
@@ -410,7 +410,7 @@ Please do not remove credit
 }
 
 .member-offline {
-    position: absolute !important;
+   *  position: absolute !important;
     background: none !important;
     background-color: transparent !important;
     content: url('https://i.ibb.co/BHG99zxS/rottingcarrionday.png') !important;
@@ -872,10 +872,10 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
             }
 }
 
-@media (max-width: 768px) {
+* @media (max-width: 768px) {
 
     .member-online {
-    position: absolute !important;
+   * position: absolute !important;
     background: none !important;
     background-color: transparent !important;
     content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
@@ -885,8 +885,8 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
     left: -0px !important;
 }
 	
-    .member-online::after {
-        position: absolute !important;
+      .member-online::after { 
+       *  position: absolute !important;
         content: url('') !important;
         width: 60px !important;
         height: 60px !important;
