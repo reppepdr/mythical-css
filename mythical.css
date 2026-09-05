@@ -875,22 +875,9 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
 * @media (max-width: 768px) {
 
     .member-online {
-   * position: absolute !important;
-    background: none !important;
-    background-color: transparent !important;
-    content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
-    width: 60px !important;
-    height: 60px !important; 
-    top: -0px !important;
-    left: -0px !important;
 }
 	
-      .member-online::after { 
-       *  position: absolute !important;
-        content: url('') !important;
-        width: 60px !important;
-        height: 60px !important;
-        transform: translate(5px, -10px) !important; 
+      .member-online:
     }
 }
 
