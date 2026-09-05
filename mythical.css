@@ -9,12 +9,12 @@ CSS template by 🥀 florcita 🥀 (#378453).
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-:root {
---facebook: url("https://i.ibb.co/fVJPpsQT/Firefly.png");
---moundunsort: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
---mound1: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
---mound2: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
---nmound: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
+* :root { *
+* --facebook: url("https://i.ibb.co/fVJPpsQT/Firefly.png"); *
+* --moundunsort: url("https://i.ibb.co/CXWRtzB/bullspainting.png"); *
+* --mound1: url("https://i.ibb.co/CXWRtzB/bullspainting.png"); *
+* --mound2: url("https://i.ibb.co/CXWRtzB/bullspainting.png"); *
+* --nmound: url("https://i.ibb.co/CXWRtzB/bullspainting.png"); *
 	
 /* BACKGROUND */
 
