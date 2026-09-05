@@ -398,26 +398,26 @@ Please do not remove credit
  
 /* MEMBER ONLINE */
 
- .member-online {
-   *  position: absolute !important;
-    background: none !important;
-    background-color: transparent !important;
-    content: url('https://i.ibb.co/VpjGzWGN/zebra-DAY.png') !important;
-    width: 130px !important;
-    height: 110px !important; 
-    top: -20px !important;
-    left: 70px !important;
+* .member-online {
+    * position: absolute !important
+   * background: none !important
+   * background-color: transparent !important
+   * content: url('') !important
+   * width: 130px !important
+   * height: 110px !important
+   * top: -20px !important
+   * left: 70px !important
 }
 
-.member-offline {
-   *  position: absolute !important;
-    background: none !important;
-    background-color: transparent !important;
-    content: url('https://i.ibb.co/BHG99zxS/rottingcarrionday.png') !important;
-    width: 130px !important;
-    height: 110px !important; 
-    top: -20px !important;
-    left: 70px !important;
+ *  .member-offline { 
+    * position: absolute !important
+   * background: none !important
+   * background-color: transparent !important
+   * content: url('') !important
+   * width: 130px !important
+   * height: 110px !important
+   * top: -20px !important
+   * left: 70px !important
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
