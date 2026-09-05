@@ -9,6 +9,13 @@ CSS template by 🥀 florcita 🥀 (#378453).
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+:root {
+--facebook: url("https://i.ibb.co/fVJPpsQT/Firefly.png");
+--moundunsort: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
+--mound1: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
+--mound2: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
+--nmound: url("https://i.ibb.co/CXWRtzB/bullspainting.png");
+	
 /* BACKGROUND */
 
 body {
@@ -819,32 +826,60 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
 	border-radius: 20px !important;
 }
 
-.mound-grid {
-    background: #d6000000 !important;
-    position: relative;
-    width: 200px;
-    margin-bottom:20%;
-    padding-bottom: 90%;
-    padding-right: 20%;
-    height: 110px !important;
-    overflow: hidden; /* Recorta el contenido excedente */
-    border-radius: 20px !important;
-    box-shadow: 0px 0px 8px #fff0 !important;
+div.mound-grid>img[src$="beetleunsorted.png"] {
+background: var(--mound1); 
+    background-size: 110%; 
+    width: 100%; 
+    height: 85%; 
+    object-fit: cover;
+    margin-left: 0;
+    padding-top: 70% !important; 
+    padding-right: 100% !important; 
+    border: 3px double !important; 
+    border-color: #6c4204 !important; 
+    border-radius: 20px !important; 
+    box-shadow: 0px 0px 5px #ffd597 !important; 
+    opacity: var(--opacity1); 
+    filter: var(--dropshadow); 
+    transition: 0.3s ease; 
+}
+    
+div.mound-grid>img[src$="beetlemound.png"] { 
+    background: var(--mound1); 
+    background-size: 110%; 
+    width: 100%; 
+    height: 85%; 
+    object-fit: cover;
+    margin-left: 0;
+    padding-top: 70% !important; 
+    padding-right: 100% !important; 
+    border: 3px double !important; 
+    border-color: #6c4204 !important; 
+    border-radius: 20px !important; 
+    box-shadow: 0px 0px 5px #ffd597 !important; 
+    opacity: var(--opacity1); 
+    filter: var(--dropshadow); 
+    transition: 0.3s ease; 
 }
 
 
-.mound-grid img {
-	background:url('https://i.ibb.co/CXWRtzB/bullspainting.png') center no-repeat;
-    background-size: 110%;
-    width: 100%;
-    height: 85%;
-    border: 3px double !important;
-    border-color: #6c4204!important;
-    object-fit: cover; 
-    border-radius: 20px;
-    transition: 0.3s ease;
-    margin-left: 0; 
-    box-shadow:  0px 0px 5px #ffd597!important;
+
+div.mound-grid>img[src$="addbeetlemound.png"] {
+background: var(--mound1); 
+    background-size: 110%; 
+    width: 100%; 
+    height: 85%; 
+    object-fit: cover;
+    margin-left: 0;
+    padding-top: 70% !important; 
+    padding-right: 100% !important; 
+    border: 3px double !important; 
+    border-color: #6c4204 !important; 
+    border-radius: 20px !important; 
+    box-shadow: 0px 0px 5px #ffd597 !important; 
+    opacity: var(--opacity1); 
+    filter: var(--dropshadow); 
+    transition: 0.3s ease; 
 }
 
 .mound-grid:hover img {
