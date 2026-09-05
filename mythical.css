@@ -825,93 +825,38 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
 	border-radius: 20px !important;
 }
 
-div.mound-grid>img[src$="beetleunsorted.png"] { 
-    background: var(--mound1); 
-    background-size: 110%; 
-    width: 100%; 
-    height: 85%; 
-    object-fit: cover; 
-    margin-left: 0; 
-    padding-top: 70% !important; 
-    padding-right: 100% !important; 
-    border: 3px double !important; 
-    border-color: #6c4204 !important; 
-    border-radius: 20px !important; 
-    box-shadow: 0px 0px 5px #ffd597 !important; 
-    opacity: var(--opacity1); 
-    filter: var(--dropshadow); 
-    transition: 0.3s ease; 
-} 
-
-div.mound-grid>img[src$="beetlemound.png"] { 
-    background: var(--mound1); 
-    background-size: 110%; 
-    width: 100%; 
-    height: 85%; 
-    object-fit: cover; 
-    margin-left: 0; 
-    padding-top: 70% !important; 
-    padding-right: 100% !important; 
-    border: 3px double !important; 
-    border-color: #6c4204 !important; 
-    border-radius: 20px !important; 
-    box-shadow: 0px 0px 5px #ffd597 !important; 
-    opacity: var(--opacity1); 
-    filter: var(--dropshadow); 
-    transition: 0.3s ease; 
-} 
-
-div.mound-grid>img[src$="addbeetlemound.png"] { 
-    background: var(--mound1); 
-    background-size: 110%; 
-    width: 100%; 
-    height: 85%; 
-    object-fit: cover; 
-    margin-left: 0; 
-    padding-top: 70% !important; 
-    padding-right: 100% !important; 
-    border: 3px double !important; 
-    border-color: #6c4204 !important; 
-    border-radius: 20px !important; 
-    box-shadow: 0px 0px 5px #ffd597 !important; 
-    opacity: var(--opacity1); 
-    filter: var(--dropshadow); 
-    transition: 0.3s ease; 
+.mound-grid {
+    background: #d6000000 !important;
+    position: relative;
+    width: 200px;
+    margin-bottom:20%;
+    padding-bottom: 90%;
+    padding-right: 20%;
+    height: 110px !important;
+    overflow: hidden; /* Recorta el contenido excedente */
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 8px #fff0 !important;
 }
 
-.mound-grid img { 
-    background: var(--nmound); 
-    opacity: var(--opacity1); 
-    border-radius: var(--borderrad1); 
-    filter: var(--dropshadow); 
-    transition: var(--transition1); 
-    background-size: cover; 
-    width: 100%; 
-    height: 100%; 
-    padding-top: 70%; 
-    padding-right: 100%; 
-    max-height: 150px; 
-} 
 
-.mound-grid img:hover { 
-    opacity: var(--opacity2)!important; 
-    transition: var(--transition2); 
-} 
+.mound-grid img {
+	background: url('https://img.pikbest.com/png-images/20240830/ancient-greek-bust-of-a-woman-with-blindfold-on-her-eyes-_10771971.png!sw800') center no-repeat;
+	background-size:80%;
+	width: 100%;
+	height: 50%;
+	padding-top: 70%;
+	padding-right: 100%;
+	max-height:150px;
+	border-radius: 10px !important;
+	transition: 0.3s ease;
+	box-shadow:  0px 0px 5px #4471ba00!important;
 
-.mound-grid { 
-    background: var(--gradient3); 
-    color: var(--light2); 
-    border-radius: var(--borderrad2); 
-    filter: var(--dropshadow); 
-    transition: var(--transition1); 
-    overflow: hidden; 
-    max-height: 180px; 
-    max-width: 290px; 
-} 
+}
 
-.mound-grid img:hover, div.mound-grid>img:hover { 
-    filter: saturate(3) blur(1px) !important; 
-    overflow: hidden; 
+.mound-grid:hover img {
+    filter: saturate(3) blur(1px);
+    overflow: hidden;
+    
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
