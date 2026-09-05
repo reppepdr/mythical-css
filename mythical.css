@@ -812,7 +812,6 @@ a[href$="mound.php?PLAYER ID"]>div.mound-grid>img {
     margin-top: -100px;
     width: 250px;
     height: 125px;
-
 }
 
 .cave-grid {
@@ -862,8 +861,6 @@ div.mound-grid>img[src$="beetlemound.png"] {
     transition: 0.3s ease; 
 }
 
-
-
 div.mound-grid>img[src$="addbeetlemound.png"] {
 background: var(--mound1); 
     background-size: 110%; 
@@ -887,7 +884,6 @@ background: var(--mound1);
     overflow: hidden;
     
 }
-
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
